@@ -79,9 +79,9 @@ const Navbar = () => {
             </div>
 
             {/* Mobile Menu Button */}
-            <div className="flex items-center gap-3 md:hidden">
+            <div className="flex items-center gap-3 md:hidden relative">
                 {user && (
-                    <UserButton>
+                    <UserButton appearance="auto">
                         <UserButton.MenuItems>
                             <UserButton.Action label='My Bookings' labelIcon={assets.totalBookingIcon} onClick={() => navigate('/bookings')} />
                         </UserButton.MenuItems>

@@ -14,3 +14,14 @@
 .font-playfair {
   font-family: Playfair !important;
 }
+
+svg {
+  overflow: auto;
+  white-space: normal;
+  word-break: break-all;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
