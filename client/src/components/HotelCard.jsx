@@ -5,7 +5,7 @@ const HotelCard = ({ room, index }) => {
   return (
     <div key={room._id} className="relative max-w-70 w-full rounded-xl overflow-hidden bg-white text-gray-500/90 shadow-[0px_4px_4px_rgba(0,0,0,0.05)]">
       <Link
-        to={"/rooms" + room._id}
+        to={"/rooms/" + room._id}
         onClick={() => {
           scrollTo(0, 0);
         }}
